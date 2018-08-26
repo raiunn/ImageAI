@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D01293720BEB22A004E9CCD /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1D01293620BEB229004E9CCD /* Resnet50.mlmodel */; };
+		1D01293C20C162F3004E9CCD /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1D01293820C1623F004E9CCD /* Inceptionv3.mlmodel */; };
 		1D6A944B20BC51A1007838DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A944A20BC51A1007838DC /* AppDelegate.swift */; };
 		1D6A944D20BC51A2007838DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6A944C20BC51A2007838DC /* ViewController.swift */; };
 		1D6A945020BC51A2007838DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D6A944E20BC51A2007838DC /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D01293620BEB229004E9CCD /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		1D01293820C1623F004E9CCD /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		1D6A944720BC51A1007838DC /* ImageAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D6A944A20BC51A1007838DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D6A944C20BC51A2007838DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 				1D6A944A20BC51A1007838DC /* AppDelegate.swift */,
 				1D6A944C20BC51A2007838DC /* ViewController.swift */,
 				1D6A944E20BC51A2007838DC /* Main.storyboard */,
+				1D01293620BEB229004E9CCD /* Resnet50.mlmodel */,
+				1D01293820C1623F004E9CCD /* Inceptionv3.mlmodel */,
 				1D6A945120BC51A3007838DC /* Assets.xcassets */,
 				1D6A945320BC51A3007838DC /* LaunchScreen.storyboard */,
 				1D6A945620BC51A3007838DC /* Info.plist */,
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D6A944D20BC51A2007838DC /* ViewController.swift in Sources */,
+				1D01293C20C162F3004E9CCD /* Inceptionv3.mlmodel in Sources */,
+				1D01293720BEB22A004E9CCD /* Resnet50.mlmodel in Sources */,
 				1D6A944B20BC51A1007838DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
